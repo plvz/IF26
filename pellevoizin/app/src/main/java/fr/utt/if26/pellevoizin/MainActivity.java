@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView tx = (TextView) findViewById(R.id.message);
-        tx.setText("Message modifié dans le code Java");
+        tx.setText("Message modifié dans le code Java !!!!!!!!!!");
+
     }
 }
